@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 import { auth } from '../../firebase/firebase.init';
 
 const Register = () => {
-
+    
     const handleRegister = (event) => {
         event.preventDefault();
         const email = event.target.email.value;
