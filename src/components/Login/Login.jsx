@@ -46,7 +46,7 @@ const Login = () => {
                         {/* email field */}
                         <label className="label">Email</label>
                         <input type="email" name='email' className="input" placeholder="Email" />
-                        {/* password field */}
+
                         <label className="label">Password</label>
                         <input type="password" name='password' className="input" placeholder="Password" />
                         <div><a className="link link-hover">Forgot password?</a></div>
